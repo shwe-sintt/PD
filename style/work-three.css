@@ -193,8 +193,9 @@ body {
     text-align: center;
     padding-top: 20px;
     font-family: "LoRes 12 OT Alt Oakland";
-    color: #267e0b;
+    color: #65d941;
   }
+
   .image-container {
     width: 110%;
     height: 70%;
@@ -248,6 +249,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
   }
 
   .card-body-right {

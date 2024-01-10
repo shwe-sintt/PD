@@ -1,299 +1,300 @@
 body {
-  margin: 0;
-  padding: 0;
-  background-image: url("../img/logo-2.png");
-  background-size: cover;
-  background-color: #0201ff;
-}
-a {
-  text-decoration: none;
-  color: #000;
-}
-.header {
-  background-color: #c4f21b;
-  margin: 0;
-  padding: 0;
-  height: 10vh;
-  text-align: center;
-}
-
-.header-icon {
-  height: 16vh;
-}
-
-.content-body {
-  height: 78vh;
-}
-footer {
-  height: 12vh;
-  background-color: #c4f21b;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.left {
-  display: flex;
-  justify-content: space-between;
-}
-
-.footer-left-icon {
-  text-align: center;
-  width: 45px;
-  height: 45px;
-  background-color: #e6e6e6;
-  border-right: 2.5px solid #faf1f1;
-  border-top: 2px solid #faf1f1;
-  border-left: 3px solid #8f8f8f;
-  border-bottom: 3px solid #8f8f8f;
-  margin: 0px 10px;
-  background-color: #c4f21b;
-}
-.footer-left-icon img {
-  height: 100%;
-  width: 100%;
-}
-.menu-icon {
-  margin: 0px 60px;
-  width: 50px;
-  padding: 0px 20px;
-  display: flex;
-  align-items: center;
-  color: #0201ff;
-  font-size: 20px;
-  background-color: #c4f21b;
-  font-family: "LoRes 12 OT Alt Oakland";
-}
-
-.right {
-  display: flex;
-  justify-content: space-between;
-}
-.dob-icon {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  width: 165px;
-  height: 45px;
-  border-right: 3.5px solid #8f8f8f;
-  border-top: 3px solid #8f8f8f;
-  border-left: 3px solid #faf1f1;
-  border-bottom: 2.5px solid #faf1f1;
-  margin: 0px 10px;
-  font-size: 20px;
-  font-family: "LoRes 12 OT Alt Oakland";
-}
-
-.dob-icon img {
-  height: 70%;
-}
-
-.home-icon {
-  border-right: 3.5px solid #8f8f8f;
-  border-top: 3px solid #8f8f8f;
-  border-left: 3px solid #faf1f1;
-  border-bottom: 2.5px solid #faf1f1;
-}
-.right-icon {
-  margin: 0px 20px;
-  width: 45px;
-  height: 45px;
-}
-
-.right-icon img {
-  height: 100%;
-  width: 100%;
-}
-.content-body {
-  display: grid;
-  grid-template-columns: 5fr 2fr;
-}
-
-.card {
-  box-shadow: -15px 14px 0px -2px rgba(0, 0, 0, 1);
-  -webkit-box-shadow: -15px 14px 0px -2px rgba(0, 0, 0, 1);
-  -moz-box-shadow: -15px 14px 0px -2px rgba(0, 0, 0, 1);
-  width: 120vh;
-  height: 62vh;
-  background: #dddcdc;
-  margin: 30px 0px 30px 18%;
-  padding: 20px;
-  overflow: scroll;
-}
-.card-title {
-  display: grid;
-  grid-template-columns: 4fr 4fr 4fr 1fr;
-  align-items: center;
-}
-
-.close {
-  height: 100%;
-  width: 100%;
-}
-.title-content {
-  font-size: 34px;
-  text-align: center;
-  font-weight: bolder;
-  /*font style here*/
-  font-family: "LoRes 9 Plus OT Wide";
-  color: #1a05a6;
-}
-.line {
-  height: 2px;
-  background-color: #8f8f8f;
-  margin: 8px;
-}
-.title-icon {
-  margin: 12px;
-  text-align: center;
-  border: 2px solid #000;
-  height: 40px;
-  width: 40px;
-}
-
-.right-layout {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.menu-contain {
-  padding: 20px;
-  text-align: center;
-  font-family: "LoRes 12 OT Alt Oakland";
-}
-.right-text {
-  font-size: 30px;
-  color: #fef200;
-}
-.right-img {
-  width: 60px;
-  height: 60px;
-}
-.card-body {
-  width: 100%;
-  height: 85%;
-  border: 3px solid #0d0d0d;
-  display: flex;
-  /* grid-template-columns: 1fr 2fr; */
-  overflow: auto;
-  flex-direction: column;
-}
-.card-body-pair {
-  display: flex;
-  margin-bottom: 20px; /* Adjust the margin between pairs as needed */
-}
-
-::-webkit-scrollbar {
-  width: 0px;
-  background: transparent;
-}
-
-.image-container {
-  width: 110%;
-  height: 70%;
-  border: 3px solid #000;
-  -webkit-box-shadow: -8px 12px 0px 2px rgba(191, 187, 191, 1);
-  -moz-box-shadow: -8px 12px 0px 2px rgba(191, 187, 191, 1);
-  box-shadow: -8px 12px 0px 2px rgba(191, 187, 191, 1);
-  position: relative;
-}
-.image-container-1{
-  width: 90%;
-  height: 75%;
-  border: 3px solid #000;
-  -webkit-box-shadow: -8px 12px 0px 2px rgba(191, 187, 191, 1);
-  -moz-box-shadow: -8px 12px 0px 2px rgba(191, 187, 191, 1);
-  box-shadow: -8px 12px 0px 2px rgba(191, 187, 191, 1);
-  position: relative;
-}
-.image-container-2{
-  width: 90%;
-  height: 65%;
-  border: 3px solid #000;
-  -webkit-box-shadow: -8px 12px 0px 2px rgba(191, 187, 191, 1);
-  -moz-box-shadow: -8px 12px 0px 2px rgba(191, 187, 191, 1);
-  box-shadow: -8px 12px 0px 2px rgba(191, 187, 191, 1);
-  position: relative;
-}
-.profile {
-  width: 100%;
-  height: 100%;
-}
-.man{
-  width:100%;
-  height:100%
-}
-.girl{
-  width:100%;
-  height:100%
-}
-.crown {
-  height: 50px;
-  width: 50px;
-  position: absolute;
-  top: 20px;
-  right: 18px;
-}
-.card-body-left {  
-  margin-left: 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.card-body-right {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.card-body-right div {
-  padding: 0px 20px;
-  font-size: 22px;
-  width: 75%;
-  line-height: 40px;
-  font-family: "LoRes 12 OT";
-  font-weight: bold;
-}
-.word {
-  height: 20px;
-  width: 20px;
-  margin: 0 5px;
-}
-.whatapp {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  width: 165px;
-  height: 45px;
-  border-right: 2.5px solid #faf1f1;
-  border-top: 2px solid #faf1f1;
-  border-left: 3px solid #8f8f8f;
-  border-bottom: 3px solid #8f8f8f;
-  margin: 0px 10px;
-  font-size: 20px;
-  font-family: "LoRes 12 OT Alt Oakland";
-}
-.whatapp img {
-  height: 70%;
-}
-
-@media (max-height: 767px) {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/logo-2.png");
+    background-size: cover;
+    background-color: #0201ff;
+  }
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  .header {
+    background-color: #c4f21b;
+    margin: 0;
+    padding: 0;
+    height: 10vh;
+    text-align: center;
+  }
+  
+  .header-icon {
+    height: 16vh;
+  }
+  
+  .content-body {
+    height: 78vh;
+  }
+  footer {
+    height: 12vh;
+    background-color: #c4f21b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .left {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-left-icon {
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    background-color: #e6e6e6;
+    border-right: 2.5px solid #faf1f1;
+    border-top: 2px solid #faf1f1;
+    border-left: 3px solid #8f8f8f;
+    border-bottom: 3px solid #8f8f8f;
+    margin: 0px 10px;
+    background-color: #c4f21b;
+  }
+  .footer-left-icon img {
+    height: 100%;
+    width: 100%;
+  }
+  .menu-icon {
+    margin: 0px 60px;
+    width: 50px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    color: #0201ff;
+    font-size: 20px;
+    background-color: #c4f21b;
+    font-family: "LoRes 12 OT Alt Oakland";
+  }
+  
+  .right {
+    display: flex;
+    justify-content: space-between;
+  }
+  .dob-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 165px;
+    height: 45px;
+    border-right: 3.5px solid #8f8f8f;
+    border-top: 3px solid #8f8f8f;
+    border-left: 3px solid #faf1f1;
+    border-bottom: 2.5px solid #faf1f1;
+    margin: 0px 10px;
+    font-size: 20px;
+    font-family: "LoRes 12 OT Alt Oakland";
+  }
+  
+  .dob-icon img {
+    height: 70%;
+  }
+  
+  .home-icon {
+    border-right: 3.5px solid #8f8f8f;
+    border-top: 3px solid #8f8f8f;
+    border-left: 3px solid #faf1f1;
+    border-bottom: 2.5px solid #faf1f1;
+  }
+  .right-icon {
+    margin: 0px 20px;
+    width: 45px;
+    height: 45px;
+  }
+  
+  .right-icon img {
+    height: 100%;
+    width: 100%;
+  }
+  .content-body {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+  }
+  
   .card {
-    width: 80%;
+    box-shadow: -15px 14px 0px -2px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: -15px 14px 0px -2px rgba(0, 0, 0, 1);
+    -moz-box-shadow: -15px 14px 0px -2px rgba(0, 0, 0, 1);
+    width: 120vh;
+    height: 62vh;
+    background: #dddcdc;
+    margin: 30px 0px 30px 18%;
+    padding: 20px;
+    overflow: scroll;
+  }
+  .card-title {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr 1fr;
+    align-items: center;
+  }
+  
+  .close {
+    height: 100%;
+    width: 100%;
+  }
+  .title-content {
+    font-size: 34px;
+    text-align: center;
+    font-weight: bolder;
+    /*font style here*/
+    font-family: "LoRes 9 Plus OT Wide";
+    color: #1a05a6;
+  }
+  .line {
+    height: 2px;
+    background-color: #8f8f8f;
+    margin: 8px;
+  }
+  .title-icon {
+    margin: 12px;
+    text-align: center;
+    border: 2px solid #000;
+    height: 40px;
+    width: 40px;
+  }
+  
+  .right-layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu-contain {
+    padding: 20px;
+    text-align: center;
+    font-family: "LoRes 12 OT Alt Oakland";
+  }
+  .right-text {
+    font-size: 30px;
+    color: #fef200;
+  }
+  .right-img {
+    width: 60px;
+    height: 60px;
   }
   .card-body {
+    width: 100%;
+    height: 85%;
+    border: 3px solid #0d0d0d;
+    display: flex;
+    /* grid-template-columns: 1fr 2fr; */
+    overflow: auto;
+    flex-direction: column;
+  }
+  .card-body-pair {
+    display: flex;
+    margin-bottom: 20px; /* Adjust the margin between pairs as needed */
+  }
+  
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+  }
+ 
+  .image-container {
+    width: 110%;
+    height: 70%;
+    border: 3px solid #000;
+    -webkit-box-shadow: -8px 12px 0px 2px rgba(191, 187, 191, 1);
+    -moz-box-shadow: -8px 12px 0px 2px rgba(191, 187, 191, 1);
+    box-shadow: -8px 12px 0px 2px rgba(191, 187, 191, 1);
+    position: relative;
+  }
+  .image-container-1{
+    width: 90%;
     height: 75%;
+    border: 3px solid #000;
+    -webkit-box-shadow: -8px 12px 0px 2px rgba(191, 187, 191, 1);
+    -moz-box-shadow: -8px 12px 0px 2px rgba(191, 187, 191, 1);
+    box-shadow: -8px 12px 0px 2px rgba(191, 187, 191, 1);
+    position: relative;
   }
-}
+  .image-container-2{
+    width: 90%;
+    height: 65%;
+    border: 3px solid #000;
+    -webkit-box-shadow: -8px 12px 0px 2px rgba(191, 187, 191, 1);
+    -moz-box-shadow: -8px 12px 0px 2px rgba(191, 187, 191, 1);
+    box-shadow: -8px 12px 0px 2px rgba(191, 187, 191, 1);
+    position: relative;
+  }
+  .profile {
+    width: 100%;
+    height: 100%;
+  }
+  .man{
+    width:100%;
+    height:100%
+  }
+  .girl{
+    width:100%;
+    height:100%
+  }
+  .crown {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 20px;
+    right: 18px;
+  }
+  .card-body-left {  
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-@media (min-height: 768px) and (min-width: 768px) {
-  .card {
-    width: 80%;
+  .card-body-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-  .card-body {
-    height: 90%;
+  .card-body-right div {
+    padding: 0px 20px;
+    font-size: 22px;
+    width: 75%;
+    line-height: 40px;
+    font-family: "LoRes 12 OT";
+    font-weight: bold;
   }
-}
+  .word {
+    height: 20px;
+    width: 20px;
+    margin: 0 5px;
+  }
+  .whatapp {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 165px;
+    height: 45px;
+    border-right: 2.5px solid #faf1f1;
+    border-top: 2px solid #faf1f1;
+    border-left: 3px solid #8f8f8f;
+    border-bottom: 3px solid #8f8f8f;
+    margin: 0px 10px;
+    font-size: 20px;
+    font-family: "LoRes 12 OT Alt Oakland";
+  }
+  .whatapp img {
+    height: 70%;
+  }
+  
+  @media (max-height: 767px) {
+    .card {
+      width: 80%;
+    }
+    .card-body {
+      height: 75%;
+    }
+  }
+  
+  @media (min-height: 768px) and (min-width: 768px) {
+    .card {
+      width: 80%;
+    }
+    .card-body {
+      height: 90%;
+    }
+  }
+  

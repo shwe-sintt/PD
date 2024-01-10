@@ -14,7 +14,9 @@
       </h1>
     </header>
     <section>
-   
+   <audio id="play" controls style="display: none;">
+                    <source src="./mouse-click.mp3" type="audio/mpeg">
+    </audio>
       <div class="content-body">
         <div>
           <div class="card">
@@ -44,11 +46,10 @@
               <div class="card-body-right">
                 <div>My name is Shwe Sin Thune Tint!</div>
                 <div>
-                  A dedicated programmer and designer embarking on a creative 
-                  odyssey. I draw my inspiration from vibrant code, harmonious 
-                  algorithms, and the elegance of design principles. Step into my 
-                  realm, where my imagination fuses the realms of art and 
-                  technology! 🖥️🎨🌟
+                  I'm a student diving into art and programming with a mix of passion and critical thinking. 
+                  🎨💻 Creating visually engaging works and tinkering with intricate codes, I bring a 
+                  fresh vibe to both realms. Always up for pushing boundaries, I infuse my projects with 
+                  enthusiasm and a touch of critical thought. 🚀✨
                 </div>
               </div>
             </div>
@@ -56,42 +57,43 @@
         </div>
         <div class="right-layout">
           <div class="menu-contain">
-            <a href="./contact.html">
+            <a href="./contact.html" onfocus="playAudio()">
               <img src="./img/Group 3.png" alt="image" class="right-img" />
               <div class="right-text">Contact</div></a
             >
           </div>
           <div class="menu-contain">
-            <a href="./works.html"></a>
-            <img src="./img/Group 2.png" alt="image" class="right-img" />
-              <div class="right-text">Works</div></a>
+            <a href="./works.html" onfocus="playAudio()"
+              ><img src="./img/Group 2.png" alt="image" class="right-img" />
+              <div class="right-text">Works</div></a
+            >
           </div>
           <div class="menu-contain">
-            <a href="./about.html" >
-              <img src="./img/Group 1.png" alt="image" class="right-img" />
-              <div class="right-text">About</div>
-            </a>
+            <a href="./about.html" onfocus="playAudio()"
+              ><img src="./img/Group 1.png" alt="image" class="right-img" />
+              <div class="right-text">About</div></a
+            >
           </div>
         </div>
       </div>
     </section>
     <footer>
       <div class="left">
-        <a class="footer-left-icon menu-icon" >Menu</a>
+        <a class="footer-left-icon menu-icon" onclick="playAudio()">Menu</a>
         <!--LinkedIn-->
         <a
           href="https://www.linkedin.com/in/shwe-sin-thune-tint-31645b239/"
           class="footer-left-icon" target="_blank"
-          ><img src="./img/Group 7.png" alt="image" 
+          ><img src="./img/Group 7.png" alt="image" onclick="playAudio()"
         /></a>
         <!--Github change from fb icon!-->
         <a href="https://github.com/shwe-sintt" class="footer-left-icon" target="_blank"
-          ><img src="./img/Path 189.webp" alt="image" 
+          ><img src="./img/Path 189.webp" alt="image" onclick="playAudio()"
         /></a>
         <!--Whatsapp-->
         <span class="whatapp" style="width: 200px"
           ><img src="./img/Group 8.png" alt="image" />
-          <p style="color: #0201ff">+6583582359</p></span
+          <p style="color: #0201ff">+6512345678</p></span
         >
       </div>
       <div class="right">
@@ -107,5 +109,6 @@
         /></span>
       </div>
     </footer>
+    <script src="./script.js"></script>
   </body>
 </html>

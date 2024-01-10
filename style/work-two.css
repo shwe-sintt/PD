@@ -150,7 +150,16 @@ body {
     height: 40px;
     width: 40px;
   }
-  
+  .image-container img,
+.image-container-1 img,
+.image-container-2 img {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
   .right-layout {
     display: flex;
     flex-direction: column;
@@ -169,7 +178,7 @@ body {
   .right-img {
     width: 60px;
     height: 60px;
-  }
+  } 
   .card-body {
     height: 85%;
     border: 3px solid #0d0d0d;
@@ -178,8 +187,8 @@ body {
   .card-body-pair {
     width: 80%;
     justify-content: center;
-    margin-bottom: 20px; 
-    /* margin-buttom: as you like*/
+    margin-bottom: 40px; 
+    /* margin-bottom: as you like*/
   }
   
   ::-webkit-scrollbar {

@@ -62,6 +62,7 @@ footer {
   color: #0201ff;
   font-size: 20px;
   background-color: #c4f21b;
+  font-family: "LoRes 12 OT Alt Oakland";
 }
 
 .right {
@@ -80,6 +81,7 @@ footer {
   border-bottom: 2.5px solid #faf1f1;
   margin: 0px 10px;
   font-size: 20px;
+  font-family: "LoRes 12 OT Alt Oakland";
 }
 
 .dob-icon img {
@@ -132,6 +134,8 @@ footer {
   font-size: 34px;
   text-align: center;
   font-weight: bolder;
+  /*font style here*/
+  font-family: "LoRes 9 Plus OT Wide";
   color: #1a05a6;
 }
 .line {
@@ -156,6 +160,7 @@ footer {
 .menu-contain {
   padding: 20px;
   text-align: center;
+  font-family: "LoRes 12 OT Alt Oakland";
 }
 .right-text {
   font-size: 30px;
@@ -211,7 +216,7 @@ footer {
 }
 .card-body-right div {
   padding: 0px 20px;
-  font-size: 28px;
+  font-size: 22px;
   width: 90%;
   line-height: 40px;
   font-family: "LoRes 12 OT";
@@ -234,6 +239,7 @@ footer {
   border-bottom: 3px solid #8f8f8f;
   margin: 0px 10px;
   font-size: 20px;
+  font-family: "LoRes 12 OT Alt Oakland";
 }
 .whatapp img {
   height: 70%;

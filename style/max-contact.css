@@ -3,14 +3,14 @@ body {
   padding: 0;
   background-image: url("../img/logo-2.png");
   background-size: cover;
-  background-color: #57b6b8;
+  background-color: #d94169;
 }
 a {
   text-decoration: none;
   color: #000;
 }
 .header {
-  background-color: #fbe8a6;
+  background-color: #e6f6aa;
   margin: 0;
   padding: 0;
   height: 10vh;
@@ -25,7 +25,7 @@ a {
 }
 footer {
   height: 12vh;
-  background-color: #fbe8a6;
+  background-color: #e6f6aa;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -46,8 +46,7 @@ footer {
   border-left: 3px solid #8f8f8f;
   border-bottom: 3px solid #8f8f8f;
   margin: 0px 10px;
-  /**/
-  background-color: #fbe8a6;
+  background-color: #e6f6aa;
 }
 .footer-left-icon img {
   height: 100%;
@@ -61,6 +60,7 @@ footer {
   align-items: center;
   color: #0201ff;
   font-size: 20px;
+  background-color: #e6f6aa;
   font-family: "LoRes 12 OT Alt Oakland";
 }
 
@@ -103,17 +103,16 @@ footer {
 }
 .content-body {
   display: grid;
-  grid-template-columns: 5fr 2fr;
 }
 
 .card {
   box-shadow: -15px 14px 0px -2px rgba(0, 0, 0, 1);
   -webkit-box-shadow: -15px 14px 0px -2px rgba(0, 0, 0, 1);
   -moz-box-shadow: -15px 14px 0px -2px rgba(0, 0, 0, 1);
-  width: 120vh;
+  width: 90%;
   height: 62vh;
   background: #dddcdc;
-  margin: 30px 0px 30px 18%;
+  margin: 30px auto;
   padding: 20px;
   overflow: scroll;
 }
@@ -128,7 +127,7 @@ footer {
   width: 100%;
 }
 .title-content {
-  font-size: 40px;
+  font-size: 45px;
   text-align: center;
   /*font style*/
   font-family: "LoRes 9 Plus OT Wide";
@@ -188,58 +187,72 @@ footer {
   height: 0;
 }
 .card-header {
-  font-size: 20px;
+  font-size: 28px;
   text-align: center;
-  padding: 20px;
-  /**/
+  padding: 20px 300px;
   font-family: "LoRes 12 OT Alt Oakland";
   color: #1b78f2;
-}
-.edu {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
 }
 
-.edu-title {
-  font-size: 24px;
-  text-align: right;
-  text-decoration: underline;
-  font-family: "LoRes 9 Plus OT Wide";
-  color: #d94169;
+.card-body form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.edu-right-title {
-  font-size: 20px;
-  padding: 7px;
-  margin-left: 20px;
+.input-group {
+  margin: 10px 0;
   font-family: "LoRes 12 OT Alt Oakland";
-  color: #1b78f2;
 }
-.letter {
-  padding: 0px 20px;
-  margin-left: 20px;
-  font-family: "LoRes 12 OT Alt Oakland";
-  color: #d94169;
+.input-group label {
+  font-size: 26px;
+  margin: 0 10px;
 }
-.scales {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-.scales div {
-  text-align: center;
-}
-.scale-header {
+.input-group input {
+  width: 360px;
+  border: 1px solid #000;
   font-size: 20px;
-  text-decoration: underline;
+  padding: 8px;
+  outline: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-family: "LoRes 12 OT Alt Oakland";
+}
+.lable {
+  padding: 20px;
+}
+#name {
+  box-shadow: 0px 5px 0px 0px #fef200;
+  -webkit-box-shadow: 0px 5px 0px 0px #fef200;
+  -moz-box-shadow: 0px 5px 0px 0px #fef200;
+}
+#email {
+  box-shadow: 0px 5px 0px 0px #9900fe;
+  -webkit-box-shadow: 0px 5px 0px 0px #9900fe;
+  -moz-box-shadow: 0px 5px 0px 0px #9900fe;
+}
+#message {
+  box-shadow: 0px 5px 0px 0px #81e3f0;
+  -webkit-box-shadow: 0px 5px 0px 0px #81e3f0;
+  -moz-box-shadow: 0px 5px 0px 0px #81e3f0;
+  padding-bottom: 30px;
+}
+.submit-button {
+  font-size: 30px;
+  background-color: #d94169;
   margin: 10px;
-  margin-top: 30px;
-  font-family: "LoRes 9 Plus OT Wide";
-}
-.scale-letter {
-  font-size: 18px;
-  line-height: 18px;
-  margin: 5px;
-  font-family: "LoRes 12 OT Alt Oakland";
+  padding: 5px;
+  line-height: 30px;
+  text-align: center;
   color: #1b78f2;
+  display: flex;
+  align-items: center;
+  font-family: "LoRes 12 OT Alt Oakland";
+  font-weight: bolder;
+  cursor: pointer;
+}
+.submit {
+  height: 50px;
+  padding: 0 10px;
 }
 .whatapp {
   display: flex;
@@ -259,20 +272,45 @@ footer {
   height: 70%;
 }
 
-@media (max-height: 767px) {
-  .card {
-    width: 80%;
+.modal-window {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.25);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+  &:target {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
   }
-  .card-body {
-    height: 86%;
+  & > div {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2em;
+    background: #d94169;
+    border-radius: 1rem;
   }
 }
-
-@media (min-height: 768px) {
-  .card {
-    width: 80%;
-  }
-  .card-body {
-    height: 90%;
+.modal-close {
+  color: #ffffff;
+  line-height: 50px;
+  font-size: 80%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 70px;
+  text-decoration: none;
+  &:hover {
+    color: black;
   }
 }
