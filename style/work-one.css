@@ -62,6 +62,7 @@ footer {
   color: #0201ff;
   font-size: 20px;
   background-color: #c4f21b;
+  font-family: "LoRes 12 OT Alt Oakland";
 }
 
 .right {
@@ -80,6 +81,7 @@ footer {
   border-bottom: 2.5px solid #faf1f1;
   margin: 0px 10px;
   font-size: 20px;
+  font-family: "LoRes 12 OT Alt Oakland";
 }
 
 .dob-icon img {
@@ -132,6 +134,8 @@ footer {
   font-size: 34px;
   text-align: center;
   font-weight: bolder;
+  /*font style here*/
+  font-family: "LoRes 9 Plus OT Wide";
   color: #1a05a6;
 }
 .line {
@@ -156,6 +160,7 @@ footer {
 .menu-contain {
   padding: 20px;
   text-align: center;
+  font-family: "LoRes 12 OT Alt Oakland";
 }
 .right-text {
   font-size: 30px;
@@ -169,23 +174,42 @@ footer {
   width: 100%;
   height: 85%;
   border: 3px solid #0d0d0d;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  overflow: scroll;
+  display: flex;
+  /* grid-template-columns: 1fr 2fr; */
+  overflow: auto;
+  flex-direction: column;
 }
+.card-body-pair {
+  display: flex;
+  margin-bottom: 20px; /* Adjust the margin between pairs as needed */
+}
+
 ::-webkit-scrollbar {
   width: 0px;
   background: transparent;
 }
-.card-body-left {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 .image-container {
+  width: 110%;
+  height: 70%;
+  border: 3px solid #000;
+  -webkit-box-shadow: -8px 12px 0px 2px rgba(191, 187, 191, 1);
+  -moz-box-shadow: -8px 12px 0px 2px rgba(191, 187, 191, 1);
+  box-shadow: -8px 12px 0px 2px rgba(191, 187, 191, 1);
+  position: relative;
+}
+.image-container-1{
   width: 90%;
   height: 75%;
+  border: 3px solid #000;
+  -webkit-box-shadow: -8px 12px 0px 2px rgba(191, 187, 191, 1);
+  -moz-box-shadow: -8px 12px 0px 2px rgba(191, 187, 191, 1);
+  box-shadow: -8px 12px 0px 2px rgba(191, 187, 191, 1);
+  position: relative;
+}
+.image-container-2{
+  width: 90%;
+  height: 65%;
   border: 3px solid #000;
   -webkit-box-shadow: -8px 12px 0px 2px rgba(191, 187, 191, 1);
   -moz-box-shadow: -8px 12px 0px 2px rgba(191, 187, 191, 1);
@@ -196,6 +220,14 @@ footer {
   width: 100%;
   height: 100%;
 }
+.man{
+  width:100%;
+  height:100%
+}
+.girl{
+  width:100%;
+  height:100%
+}
 .crown {
   height: 50px;
   width: 50px;
@@ -203,6 +235,14 @@ footer {
   top: 20px;
   right: 18px;
 }
+.card-body-left {  
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .card-body-right {
   display: flex;
   flex-direction: column;
@@ -211,8 +251,8 @@ footer {
 }
 .card-body-right div {
   padding: 0px 20px;
-  font-size: 28px;
-  width: 90%;
+  font-size: 22px;
+  width: 75%;
   line-height: 40px;
   font-family: "LoRes 12 OT";
   font-weight: bold;
@@ -234,6 +274,7 @@ footer {
   border-bottom: 3px solid #8f8f8f;
   margin: 0px 10px;
   font-size: 20px;
+  font-family: "LoRes 12 OT Alt Oakland";
 }
 .whatapp img {
   height: 70%;
